@@ -1,0 +1,29 @@
+body{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #4d476b;
+    color: #EBEBEB;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+h1{
+    font-size: calc(1.5rem + 3vw);
+}
+h2{
+    font-size: calc(1rem + 2vw);
+}
+p{
+    font-size: calc(1rem + 0.5vw);
+}
+a{
+    color: #e0f0ff;
+}
+a:hover{
+    filter: brightness(2);
+    transform: scale(2, 2);
+    background-color: black;
+}
